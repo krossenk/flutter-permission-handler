@@ -41,6 +41,9 @@ enum PermissionGroup {
   /// Android: Speech
   /// iOS: Microphone
   speech,
+
+  /// Android: Speech
+  /// iOS: Microphone
   microphone,
 
   /// Android: External Storage

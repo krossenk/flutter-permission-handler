@@ -38,6 +38,10 @@ enum PermissionGroup {
   /// The unknown permission only used for return type, never requested
   unknown,
 
+  /// Android: Contacts
+  /// iOS: AddressBook
+  contacts,
+
   /// Android: Speech
   /// iOS: Microphone
   speech,

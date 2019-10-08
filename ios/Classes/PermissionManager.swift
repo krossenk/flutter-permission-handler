@@ -75,6 +75,8 @@ class PermissionManager: NSObject {
     
     private static func createPermissionStrategy(permission: PermissionGroup) -> PermissionStrategy {
         switch permission {
+        case PermissionGroup.contacts:
+            return ContactPermissionStrategy()
         case PermissionGroup.microphone:
             return AudioVideoPermissionStrategy()
         default:

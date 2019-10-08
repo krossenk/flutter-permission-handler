@@ -8,6 +8,7 @@
 import Foundation
 
 enum PermissionGroup : String, Codable {
+    case contacts = "contacts"
     case microphone = "microphone"
     case storage = "storage"
 }
